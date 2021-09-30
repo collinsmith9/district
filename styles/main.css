@@ -1,12 +1,17 @@
-.representative__info {
+
+.representative {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+}
+
+.representative__info {
+    flex: 2;
 }
 
 .representative__committees {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    
+    flex: 2;
+    flex-direction: row;
+}
+
+h1 {
+    align-items: center;
 }
